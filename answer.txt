@@ -1,0 +1,18 @@
+create-react-app : Невозможно загрузить файл C:\Users\ОГАБЕК\AppData\Roaming\npm\create-react-app.ps1, так как выполнение сценариев отключено в этой системе.
+ Для получения дополнительных сведений см. about_Execution_Policies по адресу http://go.microsoft.com/fwlink/?LinkID=135170.
+строка:1 знак:1
++ create-react-app test-task-weather-app
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : Ошибка безопасности: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+    
+    
+    
+    SOLVING 
+    
+    1: Open Windows PowerShell as Adminstrator
+    2: Write and Run Following Code
+    
+    Set-ExecutionPolicy RemoteSigned
+    
+    3: Enjoy Developing with React! :)
